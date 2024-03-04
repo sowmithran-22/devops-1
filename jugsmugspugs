@@ -1,1 +1,30 @@
+n = int(input("enter number:"))
+
+if n%3==0 and n%5==0 and n%7==0:
+    print("JugsMugsPugs")
+elif n%3==0 and n%5==0:
+    print("JugsMugs")
+elif n%3==0 and n%7==0:
+    print("JugsPugs")
+elif n%5==0 and n%7==0:
+    print("MugsPugs")
+elif n%3==0:
+    print("Jugs")
+elif n%5==0:
+    print("Mugs")
+elif n%7==0:
+    print("Pugs")
+
+n=int(input("Enter a number"))
+str1=""
+if n%3==0:
+    str1=str1+"Jugs"
+if n%5==0:
+    str1=str1+"Mugs"
+if n%7==0:
+    str1=str1+"Pugs"
+
+print(str1 or n)
+
+
 
